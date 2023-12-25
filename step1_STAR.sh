@@ -1,0 +1,36 @@
+STAR --runMode alignReads \
+        --runThreadN 16 \
+        --genomeDir /vgipiper04/CCHC/GTEx_compare/GTEx_ref/STAR_indx_2.7.9/ \
+        --twopassMode Basic \
+        --outFilterMultimapNmax 20 \
+        --alignSJoverhangMin 8 \
+        --alignSJDBoverhangMin 1 \
+        --outFilterMismatchNmax 999 \
+        --outFilterMismatchNoverLmax 0.1 \
+        --alignIntronMin 20 \
+        --alignIntronMax 1000000 \
+        --alignMatesGapMax 1000000 \
+        --outFilterType BySJout \
+        --outFilterScoreMinOverLread 0.33 \
+        --outFilterMatchNmin 0 \
+        --outFilterMatchNminOverLread 0.33 \
+        --limitSjdbInsertNsj 1200000 \
+        --readFilesIn $RNAseq.R1.fa.gz $RNAseq.R2.fa.gz \
+        --readFilesCommand zcat \
+        --outFileNamePrefix $output. \
+        --outSAMstrandField intronMotif \
+        --outFilterIntronMotifs None \
+        --alignSoftClipAtReferenceEnds Yes \
+        --quantMode TranscriptomeSAM GeneCounts \
+        --outSAMtype BAM Unsorted \
+        --outSAMunmapped Within \
+        --genomeLoad NoSharedMemory \
+        --waspOutputMode SAMtag \
+        --varVCFfile $individual_genome.vcf \
+        --chimSegmentMin 15 \
+        --chimJunctionOverhangMin 15 \
+        --chimOutType Junctions WithinBAM SoftClip \
+        --chimMainSegmentMultNmax 1 \
+        --chimOutJunctionFormat 0 \
+        --outSAMattributes NH HI AS nM NM ch vW \
+        --outSAMattrRGline ID:rg1 SM:sm1
