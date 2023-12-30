@@ -6,7 +6,7 @@ STAR alignment
 Step 2:
 WASP filter
 Step 3:
-phaser counting
+phaser count
 Step 4:
-
+rnaseqc count
 
