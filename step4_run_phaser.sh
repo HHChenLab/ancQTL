@@ -1,6 +1,6 @@
 phaser.py \
         --bam $RNAseq.waspfilter.bam \
-        --vcf $subjectID.vcf.gz \
+        --vcf $individual_genome.vcf.gz \
         --sample $subjectID \
         --o $output \
         --mapq 255 --baseq 0 --paired_end  1 \
