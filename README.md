@@ -9,4 +9,6 @@ Step 3:
 phaser count
 Step 4:
 rnaseqc count
+step5:
+PEER and library size
 
