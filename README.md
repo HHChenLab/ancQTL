@@ -8,6 +8,11 @@ local ancestry-based eQTL mapping
 * [RNA-SeQC2](https://github.com/getzlab/rnaseqc)
 * [mixQTL](https://github.com/hakyimlab/mixqtl)
 
+## Packages
+* DESeq2
+* PEER
+* GAP
+* data.table
 
 Step 1:  
 STAR alignment  
