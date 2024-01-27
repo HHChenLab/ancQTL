@@ -9,7 +9,7 @@ local ancestry-based eQTL mapping
 * [mixQTL](https://github.com/hakyimlab/mixqtl)
 
 ## Packages
-###R
+### R
 * DESeq2
 * PEER
 * GAP
