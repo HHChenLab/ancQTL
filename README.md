@@ -2,11 +2,12 @@
 local ancestry-based eQTL mapping
 
 ## Tools
-* [STAR]([https://github.com/alexdobin/STAR])
-* [bcftools]([https://samtools.github.io/bcftools/bcftools.html])
-* [phASER]([https://github.com/secastel/phaser])
-* [RNA-SeQC2]([https://github.com/getzlab/rnaseqc])
-* []([])
+* [STAR](https://github.com/alexdobin/STAR)
+* [bcftools](https://samtools.github.io/bcftools/bcftools.html)
+* [phASER](https://github.com/secastel/phaser)
+* [RNA-SeQC2](https://github.com/getzlab/rnaseqc)
+* [mixQTL](https://github.com/hakyimlab/mixqtl)
+
 
 Step 1:  
 STAR alignment  
