@@ -39,7 +39,7 @@ RNA_deseq_norm = counts(RNA_deseq2, normalized=T)
 RNA_deseq_int = t(apply(RNA_deseq_norm, MARGIN=1, invnormal))
 
 model = PEER()
-PEER_setPhenoMean(model,as.matrix(RNA_deseq_int))
+PEER_setPhenoMean(model,as.matrix(t(RNA_deseq_int)))
 PEER_setNk(model,60)
 PEER_update(model)
 ##Converged (var(residuals)) after 81 iterations
