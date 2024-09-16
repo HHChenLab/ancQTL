@@ -7,7 +7,7 @@ local ancestry-based eQTL mapping
 * [phASER](https://github.com/secastel/phaser)
 * [RNA-SeQC2](https://github.com/getzlab/rnaseqc)
 * [mixQTL](https://github.com/hakyimlab/mixqtl)
-
+* [RFMix2] 
 ## Packages
 ### R
 * DESeq2
