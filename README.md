@@ -15,6 +15,13 @@ local ancestry-based eQTL mapping
 * GAP
 * data.table
 
+## Local ancestry inference
+Step 1:
+RFMix2
+Step 2:
+Converting to gene level
+
+## Haplotypic expression estimation 
 Step 1:  
 STAR alignment  
 Step 2:  
