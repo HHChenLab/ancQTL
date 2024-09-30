@@ -16,9 +16,9 @@ local ancestry-based eQTL mapping
 * data.table
 
 ## Local ancestry inference
-Step 1:
-RFMix2
-Step 2:
+Step 1:  
+RFMix2  
+Step 2:  
 Converting to gene level
 
 ## Haplotypic expression estimation 
