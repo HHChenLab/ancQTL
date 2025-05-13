@@ -20,7 +20,7 @@
 In R:
 
 ```r
-source("path/to/ancqtl/ancqtl.R")
+source("path/to/ancQTL/ancQTL.R")
 ```
 
 ## Quick Start
