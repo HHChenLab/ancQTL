@@ -13,7 +13,7 @@
 
 * R (>= 4.0)
 * Data inputs compatible with `mixQTL` (see below)
-* Local ancestry estimates per individual per SNP
+* Local ancestry estimates per individual per gene
 
 ## Installation
 
